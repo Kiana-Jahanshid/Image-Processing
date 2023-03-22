@@ -13,7 +13,7 @@
 ## 3. Rotate image to make them smile :
 > +
    > ![This is an image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_26/pics/happy_leftman.jpg) 
-   > ![This is an image]()
+   > ![This is an image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_26/pics/rotate_to_smile.jpg)
    
 ## 4. First Character of name :
 > +
