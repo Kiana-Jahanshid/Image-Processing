@@ -22,3 +22,8 @@
 ## 5. Create Gradient :
 > +
    >  ![This is an image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_26/pics/gradientt.jpg)
+
+## 6. Black Tape :
+> +
+   >  ![This is an image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_26/pics/black_tape.jpg)
+
