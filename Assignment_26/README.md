@@ -19,3 +19,6 @@
 > +
    >  ![This is an image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_26/pics/k.jpg)
 
+## 5. Create Gradient :
+> +
+   >  ![This is an image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_26/pics/gradient.jpg)
