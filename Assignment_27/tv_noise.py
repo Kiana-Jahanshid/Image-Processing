@@ -1,8 +1,5 @@
 import cv2 
 import numpy as np 
-import imageio
-
-images = []
 
 init_image = cv2.imread("tv4.jpg")
 img = cv2.cvtColor(init_image , cv2.COLOR_BGR2GRAY)
