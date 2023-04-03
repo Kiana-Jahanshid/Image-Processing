@@ -14,3 +14,4 @@
 ### 4. Color Detector 
 > ![output](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_27/output/gb.JPG)
 > ![output](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_27/output/gbw.JPG)
+> ![output](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_27/output/g.JPG)
