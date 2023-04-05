@@ -2,7 +2,7 @@
 
 ## How to install 
 Run Following Command :
-> pip install -r requuirements.txt 
+> pip install -r requirements.txt 
 ## how to run :
 Execute this commands for each of the python file, in terminal :
 > python cat_face_detection.py 
