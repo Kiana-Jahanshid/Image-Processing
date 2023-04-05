@@ -11,6 +11,6 @@ Execute this commands for each of the python file, in terminal :
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/football_pitch.JPG)
 2. Cats Face Detection 😸
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/cats.JPG)
-4_3. Chess Face 
+4.3. Chess Face 
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/4_3_chess.JPG) 
 >
