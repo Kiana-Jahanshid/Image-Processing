@@ -17,4 +17,6 @@ Execute this commands for each of the python file, in terminal :
 ### 3. 4_ Mirror Filter 💠
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror4.JPG)
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror2.JPG)
+> ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror1.JPG)
+> ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror.JPG)
 
