@@ -33,22 +33,21 @@ def eye_lip_sticker(frame, _):
     faces=face_cascade.detectMultiScale(frame, 1.2, 5, 0, (120, 120), (350, 350))
     for (x, y, w, h) in faces:
         if h > 0 and w > 0:
+            min_y_glass = int(y + 1.5 * h / 8)
+            max_y_glass = int(y + 7.5 * h / 12)
+            glasses_height = max_y_glass - min_y_glass
 
-            glass_symin = int(y + 1.5 * h / 8)
-            glass_symax = int(y + 7.5 * h / 12)
-            sh_glass = glass_symax - glass_symin
+            min_y_lip = int(y + 2 * h / 5 + 60)
+            max_y_lip = int(y + 6 * h / 5 - 55)
+            lip_height = max_y_lip - min_y_lip
 
-            lip_symin = int(y + 2 * h / 5 + 60)
-            lip_symax = int(y + 6 * h / 5 - 55)
-            sh_lip = lip_symax - lip_symin
+            glasses_region = frame[min_y_glass:max_y_glass, x+10:x+w-10]
+            lip_region = frame[min_y_lip:max_y_lip, x+75:x+w+75]
 
-            face_glass_roi_color = frame[glass_symin:glass_symax, x+10:x+w-10]
-            face_lip_roi_color = frame[lip_symin:lip_symax, x+75:x+w+75]
-
-            glasses = cv2.resize(eyeglasses, (w-20, sh_glass),interpolation=cv2.INTER_CUBIC)
-            lip= cv2.resize(lip, (w-140, sh_lip),interpolation=cv2.INTER_CUBIC)
-            transparentOverlay(face_glass_roi_color,glasses)
-            transparentOverlay(face_lip_roi_color,lip)
+            glasses = cv2.resize(eyeglasses, (w-20, glasses_height),interpolation=cv2.INTER_CUBIC)
+            lip= cv2.resize(lip, (w-140, lip_height),interpolation=cv2.INTER_CUBIC)
+            transparentOverlay(glasses_region,glasses)
+            transparentOverlay(lip_region,lip)
     return frame
 
 
@@ -100,5 +99,4 @@ while True :
     cv2.imshow("" , frame)
     if cv2.waitKey(25) & 0xFF == ord("b"):
         break
-    cv2.imwrite("output.jpg" , frame)
-
+    #cv2.imwrite("output.jpg" , frame)
