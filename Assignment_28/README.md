@@ -24,11 +24,11 @@ Here , there are 4 tasks :
 + Or press number '2' on keyboard , to apply glasses and lip stickers at the same time :
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/glass_lip.JPG)
 ## 3. 3_ Chess Face 
-> Or else , press number '3' on keyboard , to make your face Checkered , unrecognizable & concealed :
++ Or else , press number '3' on keyboard , to make your face Checkered , unrecognizable & concealed :
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/4_3_chess.JPG) 
 >
 ## 3. 4_ Mirror Filter 💠
-if you want to apply mirror filter on your face , press number '4' on keyboard  . this functioan Splits an image in half vertically and reverses the remaining half to create a reflection.
++ if you want to apply mirror filter on your face , press number '4' on keyboard  . this functioan Splits an image in half vertically and reverses the remaining half to create a reflection.
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror4.JPG)
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror2.JPG)
 > ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_28/outputs/mirror1.JPG)
