@@ -117,13 +117,13 @@ aslo , this is mask image :
 
 so , this is the result :
 <p float="middle">
-     ______  <img src ="final_furniture.jpg" width="450" /> 
+     ______  <img src ="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_29/outputs/final_furniture.jpg" width="450" /> 
 </p>
 <br>
 
 ## 3. Then , we invert zero pixels of "stage 1" into white pixels :
 <p float="middle">
-    <img src ="final_floor.jpg" width="250" /> 
+    <img src ="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_29/outputs/final_floor.jpg" width="250" /> 
     -->
     <img src ="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_29/outputs/final_floor_with_whitewall.jpg" width="250" /> 
 </p>
