@@ -74,6 +74,10 @@ so , we have to reduce noise by Averaging each same quarter , and concatenate co
 
 # 5. Background estimation
 <br>
+<p float="middle">
+  <img src ="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_29/outputs/road.jpg" width="400" /> 
+</p>
+
 <br>
 
 # 6. Virtual decoration
