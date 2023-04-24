@@ -1,11 +1,11 @@
 # Face Alignment
 
-## 1. 🍊 Friut filter 🍊
+## 1. 🍊 Fruit filter 🍊
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_30/outputs/orange_face.JPG)
 
 
 ## 2. 🔄 Rotate image 🔄 
-![image] (https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_30/outputs/rotated_face_ROIS_withlandmarks.JPG)
+![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_30/outputs/rotated_face_ROIS_withlandmarks.JPG)
 
 ## 3. ↔ Align Face  ↔
 <p float="center">
