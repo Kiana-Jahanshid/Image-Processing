@@ -4,22 +4,35 @@ from TFLiteFaceDetector import UltraLightFaceDetecion
 from TFLiteFaceAlignment import CoordinateAlignmentModel
 
 
+def roi_resize(face_roi):
+    roi_landmarks = []
+    for i in face_roi :
+        roi_landmarks.append(pred[i])
+    roi_landmarks = np.array(roi_landmarks , dtype = int )
+
+    x , y , w , h =  cv2.boundingRect(roi_landmarks)
+    mask =  np.zeros(img.shape , dtype=np.uint8)
+    cv2.drawContours(mask , [roi_landmarks] , -1 , (255,255,255) , -1) 
+    mask = mask // 255 
+    result  = img * mask 
+    croped_lip_result = result[y:y+h , x:x+w]
+    big_roi = cv2.resize(croped_lip_result , (0,0) , fx=2 , fy=2)
+
+    return big_roi
 
 def put_resized_rois_on_face(orange , lips , left_eye , right_eye):
     faces=face_cascade.detectMultiScale(img, 1.2, 5, 0, (120, 120), (350, 350))
     for (x, y, w, h) in faces:
-        min_y_big_eye_left = int(y + 2.7 * h / 8)
-        max_y_big_eye_left = int(y + 6.6 * h / 12)
+        min_y_big_eye_left  = int(y + 2.7 * h / 8)
+        max_y_big_eye_left  = int(y + 6.6 * h / 12)
         big_eye_left_height = max_y_big_eye_left - min_y_big_eye_left
-
         min_y_big_eye_right = int(y + 2.7 * h / 8)
         max_y_big_eye_right = int(y + 6.3 * h / 12)
-        big_eye_right_height = max_y_big_eye_right - min_y_big_eye_right 
+        big_eye_right_height= max_y_big_eye_right - min_y_big_eye_right 
 
-        min_y_lip = int(y + 2 * h / 5 + 105)
-        max_y_lip = int(y + 6 * h / 5 - 25)
+        min_y_lip  = int(y + 2 * h / 5 + 105)
+        max_y_lip  = int(y + 6 * h / 5 - 25)
         lip_height = max_y_lip - min_y_lip
-
         big_eye_left_region  = orange[min_y_big_eye_left  : max_y_big_eye_left  , x-15 : x+(w//2)-3]
         big_eye_right_region = orange[min_y_big_eye_right : max_y_big_eye_right , x+(w//2)+10  : x+w+35 ]            
         lips_region = orange[min_y_lip : max_y_lip  ,  x : x+w+40 ]
@@ -49,8 +62,6 @@ def transparentOverlay(src, overlay, pos=(0, 0), scale=1):
     return src
 
 
-
-
 fd = UltraLightFaceDetecion("OpenVtuber\weights\RFB-320.tflite",conf_threshold=0.88)
 fa = CoordinateAlignmentModel("OpenVtuber\weights\coor_2d106.tflite")
 face_cascade = cv2.CascadeClassifier('OpenVtuber\haarcascade_frontalface_default.xml')
@@ -66,8 +77,11 @@ left_eye  = [39 , 37 , 33 , 36 , 35 , 41 , 40 , 42 ]
 right_eye = [95 , 94 , 96 , 93 , 91 , 87 , 90 , 89 ]
 
 
-
 for pred in fa.get_landmarks(img , boxes):
+
+    resized_lips      = roi_resize(lips)
+    resized_left_eye  = roi_resize(left_eye)
+    resized_right_eye = roi_resize(right_eye)
 
     lips      = cv2.imread("resized_lips2.png" , cv2.IMREAD_UNCHANGED)
     left_eye  = cv2.imread("resized_left_eye22.png" , cv2.IMREAD_UNCHANGED)
@@ -75,6 +89,5 @@ for pred in fa.get_landmarks(img , boxes):
     
 
 final_result = put_resized_rois_on_face(orange , lips , left_eye , right_eye )
-
 cv2.imshow("result", final_result )
 cv2.waitKey()  
