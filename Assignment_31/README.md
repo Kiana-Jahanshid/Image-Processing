@@ -1,5 +1,12 @@
 # Convolution and Histogram 📊📉
-
+<br>
+## How to install reuire libraries :
+Run Following Command :
+> pip install -r requirements.txt 
+## How to run :
+Execute this command for each of the python files, in terminal: 
+> python FileName.py  
+<br>
 ## 1. Histogram 📊 
 
 Histogram is a graph for representing frequency distribution of data points of one variable.
