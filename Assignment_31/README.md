@@ -2,9 +2,9 @@
 
 ## 1. Histogram 📊 
 
-A histogram is a graph used to represent the frequency distribution of a few data points of one variable.
+Histogram is a graph for representing frequency distribution of data points of one variable.
 
-Histograms often classify data into various “bins” and count how many data points belong to each of those bins.
+Histograms classify data into “bins” and count how many data points belong to each of the bins.
 
 The input image for calculating it's histogram is :
 <p float="center">
