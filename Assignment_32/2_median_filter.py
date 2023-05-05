@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-img = cv2.imread("inputs/xray.jpg" , cv2.IMREAD_GRAYSCALE )
+img = cv2.imread("inputs/xray.tif" , cv2.IMREAD_GRAYSCALE )
 
 x = img
 for i in range(4) :
