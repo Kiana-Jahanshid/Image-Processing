@@ -88,24 +88,17 @@ and the result after convolution is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/vertical_edges.jpg" width="1000" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/horizontal_edges.jpg" width="1000" />
 <br>
 
 
 ## The Magic 
   
-<br>
-
 For revealing hidden things we have used average filter .
-input image :
-<p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/inputs/1.tif" width="700" />
-
-<br>
 
 output image :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/magic.jpg" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/magic.jpg" width="1100" />
 <br>
 
 ## MEDIAN FILTER for noise reduction 
@@ -173,7 +166,7 @@ here are the result :
 <br>
 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/result3_ROOM_org_eql_clahe_.jpg" width="400" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/result3_ROOM_org_eql_clahe_.jpg" width="1000" />
 
 </p>
 <br>
