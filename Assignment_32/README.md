@@ -17,7 +17,7 @@ Execute this command for each of the python files, in terminal:
 Here, we want to Apply five 2D filters on our images :
 the input image is : 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/inputs/zeb.jpg" width="400" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/inputs/zeb.jpg" width="1000" />
 
 
 <br>
@@ -30,7 +30,7 @@ the input image is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/edge.jpg" width="400" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/edge.jpg" width="1000" />
 
 
 <br>
@@ -43,9 +43,7 @@ and the result after convolution is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/Sharpening.jpg" width="400" />
-
-
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/Sharpening.jpg" width="1000" />
 <br>
 
 ### 1_3. Our third filter is *EMBOSS FILTER* :
@@ -56,9 +54,7 @@ and the result after convolution is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/emboss.jpg" width="400" />
-
-<br>
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/emboss.jpg" width="1000" />
 <br>
 
 ### 1_3. Our third filter is *EMBOSS FILTER* :
@@ -69,9 +65,8 @@ and the result after convolution is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/emboss.jpg" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/emboss.jpg" width="1000" />
 
-<br>
 <br>
 
 ### 1_4. Our fourth filter is *IDENTITY FILTER* :
@@ -82,9 +77,7 @@ and the result after convolution is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/identity.jpg" width="700" />
-
-<br>
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/identity.jpg" width="1000" />
 <br>
 
 ### 1_5. Our fifth filter is *horizontal edges FILTER* :
@@ -95,13 +88,12 @@ and the result after convolution is :
 
 and the result after convolution is :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/vertical_edges.jpg" width="700" />
-
-<br>
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/vertical_edges.jpg" width="1000" />
 <br>
 
 
 ## The Magic 
+  
 <br>
 
 For revealing hidden things we have used average filter .
@@ -113,46 +105,44 @@ input image :
 
 output image :
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/magic.jpg
-" width="700" />
-
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/magic.jpg" width="700" />
 <br>
 
 ## MEDIAN FILTER for noise reduction 
 <br>
         input                //          output(after DeNoising)
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/xray_MEDIAN_filter.jpg" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/xray_MEDIAN_filter.jpg" width="1000" />
 
 </p>
 <br>
 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_2.JPG" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_2.JPG" width="1000" />
 
 </p>
 <br>
 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_circle.JPG" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_circle.JPG" width="1000" />
 
 </p>
 <br>
 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_ballon.JPG" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_ballon.JPG" width="1000" />
 
 </p>
 <br>
 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_woman.JPG" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_woman.JPG" width="1000" />
 
 </p>
 <br>
 
 <p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_a.JPG" width="700" />
+  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/2_a.JPG" width="1000" />
 
 </p>
 <br>
