@@ -62,19 +62,6 @@ and the result after convolution is :
 
 <br>
 <br>
-
-### 1_3. Our third filter is *EMBOSS FILTER* :
-
-> kernel = np.array([[-2 , -1 ,  0],
-                     [-1 ,  1 ,  1],
-                     [0  ,  1 ,  2]])
-
-and the result after convolution is :
-<p float="center">
-  <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_32/outputs/emboss.jpg" width="400" />
-
-<br>
-<br>
   
 ### 1_4. Our fourth filter is *IDENTITY FILTER* :
 
