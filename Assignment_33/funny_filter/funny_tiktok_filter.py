@@ -18,8 +18,10 @@ while True :
     faces = face_detector.detectMultiScale(frame)    
     for face in faces :
         x , y , w , h  = face
-        pic[y+10:y+int((h/2))+10 , x+30:x+int(w)-50] = frame[y+10:y+int((h/2))+10 , x+30:x+int(w)-50] 
+        pic [y+10:y+int((h/2))+10 , x+30:x+int(w)-50] = frame[y+10:y+int((h/2))+10   , x+30:x+int(w)-50] #eye
+        #pic[y+130:y+int((h/2))+100 , x+50:x+int(w)-50] = frame[y+130:y+int((h/2))+100 , x+50:x+int(w)-50] #lip+nose
 
     if cv2.waitKey(25) & 0xFF == ord("b"):
         break
+
 
