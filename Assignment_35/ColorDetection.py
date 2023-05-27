@@ -50,7 +50,7 @@ while True:
             # elif mask[i,j][0] == colors["purple"][0]  and mask[i,j][1] == colors["purple"][1] and mask[i,j][2] == colors["purple"][2] :
             #     cv2.putText(frame , "purple " , (50 , 170) , cv2.FONT_HERSHEY_SIMPLEX , 1 , 6 , 3)
 
-            # if mask[i,j][0] == colors["orange"][0]  and mask[i,j][1] == colors["orange"][1] and mask[i,j][2] == colors["orange"][2] :
+            # elif mask[i,j][0] == colors["orange"][0]  and mask[i,j][1] == colors["orange"][1] and mask[i,j][2] == colors["orange"][2] :
             #     cv2.putText(frame , "orange " , (50 , 190) , cv2.FONT_HERSHEY_SIMPLEX , 1 , 6 , 3)    
 
             elif (g_mean > r_mean and g_mean > b_mean):
@@ -62,9 +62,7 @@ while True:
       
 
  
-    #writer.write(frame)
     cv2.imshow("result" , frame)
     if cv2.waitKey(25) & 0xFF == ord("b"):
         break
 
-#writer.release()
