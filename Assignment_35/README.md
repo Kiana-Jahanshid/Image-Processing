@@ -15,4 +15,4 @@
 
 
 # 4. PIL library :
-![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/output.JPG)
+![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/output.png)
