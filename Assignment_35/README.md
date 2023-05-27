@@ -12,3 +12,7 @@
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/orange.JPG)
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/purple.JPG)
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/yellow.JPG)
+
+
+# 4. PIL library :
+![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/output.JPG)
