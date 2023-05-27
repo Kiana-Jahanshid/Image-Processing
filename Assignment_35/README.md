@@ -1,6 +1,9 @@
 
+# 1.convert jpg image to png transparent background 
+![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/png_logo.png)
 
-## 1.  color detection 
+
+# 2.  color detection 
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/red.JPG)
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/green.JPG)
 ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/green2.JPG)
