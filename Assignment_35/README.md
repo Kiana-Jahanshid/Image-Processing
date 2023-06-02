@@ -57,3 +57,8 @@
   <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/pil_results/7.png" width="300" />
   <img src="https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/output/pil_results/8.png" width="400" />
 <br>
+  
+  
+# 5. Encryption and Decryption 
+  ![image](https://github.com/kiana-jahanshid/Image-Processing/blob/main/Assignment_35/Encryption%20-Decryption/outputs/encryption_decryption_result.JPG)
+
