@@ -40,7 +40,7 @@ class MainWindow(QMainWindow ):
 
     def initUI(self):
         self.label = QtWidgets.QLabel()
-        #self.label.setPixmap(QtGui.QPixmap("QT5.png"))
+        self.label.setPixmap(QtGui.QPixmap("van.jpg"))
 
         self.Encription = QtWidgets.QPushButton()
         self.Encription.setText("Encription")
@@ -48,20 +48,15 @@ class MainWindow(QMainWindow ):
         self.Decryption = QtWidgets.QPushButton()
         self.Decryption.setText("Decryption")
 
-        self.possition(self.Encription,self.Decryption,self.label)
+        self.possition(self.Encription ,self.Decryption , self.label)
 
-    def possition(self,previous,next,text):
-
-
+    def possition(self,enc,dec,label):
         hBox = QtWidgets.QHBoxLayout()
         vBox = QtWidgets.QVBoxLayout()
-        vBox.addWidget(text)
-        vBox.addStretch()
-        vBox.addWidget(previous)
-        vBox.addWidget(next)
-        hBox.addStretch()
+        vBox.addWidget(enc)
+        vBox.addWidget(dec)
+        vBox.addWidget(label)
         hBox.addLayout(vBox)
-        hBox.addStretch()
         self.setLayout(hBox)
 
 
