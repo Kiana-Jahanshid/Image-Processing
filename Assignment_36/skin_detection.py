@@ -1,17 +1,16 @@
 import numpy as np
-import argparse
 import cv2
 
 
 lower = np.array([0, 48, 80], dtype = "uint8")
 upper = np.array([20, 255, 255], dtype = "uint8")
 
-camera = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 
 while True:
 
-	_ , frame = camera.read()
+	_ , frame = cap.read()
 
 	converted = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 	skinMask = cv2.inRange(converted, lower, upper)
