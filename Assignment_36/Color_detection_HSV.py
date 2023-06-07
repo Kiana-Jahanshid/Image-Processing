@@ -29,7 +29,7 @@ while True:
     elif 133 <= hue_value <= 170:
         color = "PURPLE"
     else:
-        color = "RED"
+        color = "Unknown"
 
 
 
